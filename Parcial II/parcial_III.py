@@ -1,5 +1,7 @@
 from urllib import parse
+
 from http.server import HTTPServer, SimpleHTTPRequestHandler
+
 port= 3002
 class servidorBasico(SimpleHTTPRequestHandler):
     def do_GET(self):
