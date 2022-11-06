@@ -1,12 +1,10 @@
 from urllib import parse
-
 from http.server import HTTPServer, SimpleHTTPRequestHandler
-
 port= 3002
 class servidorBasico(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path=="/":
-            self.path = "index.html"
+            self.path = "menu.html"
         return SimpleHTTPRequestHandler.do_GET(self)
 
     def do_POST(self):
