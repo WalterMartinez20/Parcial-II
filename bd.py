@@ -1,4 +1,4 @@
-import mysql.connector as db
+import mysql.connector as db # pip install mysql-connector-python
 import json
 
 with open('keys.json') as json_file:

@@ -11,8 +11,7 @@ import os
 import cv2
 from matplotlib import pyplot as plt
 from mtcnn.mtcnn import MTCNN
-import database as db
-
+import bd as db
 
 path = "C:\Users\jairo\OneDrive\Desktop\Parcial-II" # your path
 txt_login = "Iniciar Sesión"
