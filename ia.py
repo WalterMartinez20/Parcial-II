@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 from mtcnn.mtcnn import MTCNN
 import bd as db
 
-path = "C:\Users\jairo\OneDrive\Desktop\Parcial-II" # your path
+path = "C:\\Users\\jairo\\OneDrive\\Desktop\\Parcial-II" # your path
 txt_login = "Iniciar Sesión"
 txt_register = "Registrarse"
 
